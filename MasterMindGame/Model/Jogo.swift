@@ -16,8 +16,7 @@ struct Jogo {
     var bom: Int = 0
     var ruim: Int = 4
     
-    init(){
-    }
+    
         
 }
 

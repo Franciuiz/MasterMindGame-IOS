@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C76924C223D66FA00C2A316 /* Palpite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76924B223D66FA00C2A316 /* Palpite.swift */; };
 		3CFCDBE1221F367B002DFD8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCDBE0221F367B002DFD8B /* AppDelegate.swift */; };
 		3CFCDBE3221F367B002DFD8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCDBE2221F367B002DFD8B /* ViewController.swift */; };
 		3CFCDBE6221F367B002DFD8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCDBE4221F367B002DFD8B /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C76924B223D66FA00C2A316 /* Palpite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palpite.swift; sourceTree = "<group>"; };
 		3CFCDBDD221F367B002DFD8B /* MasterMindGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterMindGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFCDBE0221F367B002DFD8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CFCDBE2221F367B002DFD8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C76924D223D6F3700C2A316 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CFCDBE0221F367B002DFD8B /* AppDelegate.swift */,
+				3CFCDBE7221F367F002DFD8B /* Assets.xcassets */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		3C76924E223D6F8A00C2A316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CFCDBE4221F367B002DFD8B /* Main.storyboard */,
+				3CFCDBE9221F367F002DFD8B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C76924F223D6F9300C2A316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3CFCDBE2221F367B002DFD8B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		3CFCDBD4221F367B002DFD8B = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +127,11 @@
 		3CFCDBDF221F367B002DFD8B /* MasterMindGame */ = {
 			isa = PBXGroup;
 			children = (
-				3CFCDBE0221F367B002DFD8B /* AppDelegate.swift */,
-				3CFCDBE2221F367B002DFD8B /* ViewController.swift */,
-				3CFCDBE4221F367B002DFD8B /* Main.storyboard */,
-				3CFCDBE7221F367F002DFD8B /* Assets.xcassets */,
-				3CFCDBE9221F367F002DFD8B /* LaunchScreen.storyboard */,
-				3CFCDBEC221F367F002DFD8B /* Info.plist */,
+				3C76924D223D6F3700C2A316 /* Support Files */,
 				3CFCDC10221F3853002DFD8B /* Model */,
+				3C76924E223D6F8A00C2A316 /* View */,
+				3C76924F223D6F9300C2A316 /* Controller */,
+				3CFCDBEC221F367F002DFD8B /* Info.plist */,
 			);
 			path = MasterMindGame;
 			sourceTree = "<group>";
@@ -132,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				3CFCDC0E221F384E002DFD8B /* Jogo.swift */,
+				3C76924B223D66FA00C2A316 /* Palpite.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -270,6 +297,7 @@
 				3CFCDBE3221F367B002DFD8B /* ViewController.swift in Sources */,
 				3CFCDBE1221F367B002DFD8B /* AppDelegate.swift in Sources */,
 				3CFCDC0F221F384E002DFD8B /* Jogo.swift in Sources */,
+				3C76924C223D66FA00C2A316 /* Palpite.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
